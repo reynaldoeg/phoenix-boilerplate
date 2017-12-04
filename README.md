@@ -74,7 +74,7 @@ docker-compose up web
 - If you have a pre commit hook for check tests and coverage
 
 ```shell
-cp script/pre-commit.sh .git/hooks/pre-commit
+cp scripts/pre-commit.sh .git/hooks/pre-commit
 chmod +x .git/hooks/pre-commit
 ```
 
